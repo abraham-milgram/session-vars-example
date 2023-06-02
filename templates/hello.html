@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>INPUT USERNAME</title>
+    </head>
+<body>
+<form action="{{ url_for('input_username') }}" method="post">
+    <input type="text" name="username">
+    <input type="submit">
+</form>
+<a href="/see_username">See Username</a>
+</body>
+</html>
